@@ -59,7 +59,7 @@ class _FacebookLogInState extends State<FacebookLogIn> {
             )
             .then(
               (value) => Get.to(
-                () => const HomeScreen(),
+                () => HomeScreen(),
               ),
             );
         print(userData);
